@@ -6,9 +6,11 @@ let TodoList = (props) => {
         return <TodoItem item={item} key={index} index={index} DeleteTodo={props.handleDeleteTodo} />
     })
     return (
-        <ul>
-            {Item}
-        </ul>
+        <div className="col-sm-8 col-sm-offset-3">
+            <ul className="col-sm-6 list-group">
+                {Item}
+            </ul>
+        </div>
     )
 
 }

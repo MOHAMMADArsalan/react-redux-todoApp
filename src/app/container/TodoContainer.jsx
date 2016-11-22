@@ -5,11 +5,11 @@ class Todo extends React.Component {
 
     constructor() {
         super();
-    
+
         this.handleAddTodo = this.handleAddTodo.bind(this);
         this.handleDeleteTodo = this.handleDeleteTodo.bind(this);
     }
-    
+
     //handler for Add Todo
     handleAddTodo(input) {
         if (input.value) { //if input value is not empty then add
@@ -23,7 +23,8 @@ class Todo extends React.Component {
     }
     render() {
         return (
-            <div>
+
+            <div className="col-sm-12">
                 <AddTodo
                     AddTodo={this.handleAddTodo}
                     />

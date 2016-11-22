@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./container/App.jsx";
 import { Provider }from "react-redux";
 import store from "./store/store";
+// import "jquery";
 //Render App with redux Provider Component
 ReactDOM.render(
         <Provider 

@@ -22,7 +22,6 @@ const mapStateToProps = (state) => {
         todo: state.todos
     }
 }
-
 const mapDispatchToProps = (dispatch) => {
     return {
         AddTodo: (item) => {
