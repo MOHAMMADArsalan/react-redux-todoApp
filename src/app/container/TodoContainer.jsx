@@ -24,7 +24,7 @@ class Todo extends React.Component {
     render() {
         return (
 
-            <div className="col-sm-12">
+            <div className="col-sm-12" style={{marginTop:"25px"}}>
                 <AddTodo
                     AddTodo={this.handleAddTodo}
                     />
